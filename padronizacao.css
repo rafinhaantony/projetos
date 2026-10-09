@@ -1,0 +1,244 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #eeeeee;
+    font-family: Arial, sans-serif;
+    color: #a50000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 15px 5%;
+    background-color: #a50000;
+    color: white;
+}
+
+header h2 {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: #cccccc;
+}
+
+.pagina-soldagem {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    background-color: white;
+    border: none;
+    padding-bottom: 30px;
+}
+
+.imagem-topo {
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+}
+
+.imagem-topo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.titulo-setor {
+    position: relative;
+    width: 92%;
+    margin: -10px auto 15px;
+    padding: 15px;
+    background-color: #a50000;
+    text-align: center;
+    border-radius: 6px;
+    margin-top: 10px
+}
+
+.titulo-setor h1 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.hero-title {
+    background-color: #a50000;
+    padding: 15px 40px;
+    text-align: center;
+    margin: 30px auto;
+    border-radius: 6px;
+}
+
+.hero-title h1 {
+    color: #ffffff;
+    font-style: italic;
+    margin: 0;
+}
+
+.descricao {
+    margin-bottom: 30px;
+    padding: 0 25px;
+    color: #444444;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.conteudo-setor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    padding: 0 25px;
+}
+
+.imagem-destaque {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 280px;
+    padding: 15px;
+    background-color: #dddddd;
+}
+
+.imagem-destaque p {
+    margin-bottom: 15px;
+    color: #444444;
+    font-size: 14px;
+    text-align: center;
+}
+
+.imagem-destaque img {
+    display: block;
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.botao-epi {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px 10px;
+    border: 1px solid #a50000;
+    background-color: #a50000;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.botao-epi:hover {
+    background-color: #7d0000;
+}
+
+.botao-epi small {
+    display: block;
+    margin-top: 5px;
+    color: #eeeeee;
+    font-weight: normal;
+}
+
+.titulo-secao {
+    border-left: 5px solid #a50000;
+    padding-left: 10px;
+    color: #a50000;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.grade-riscos {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+}
+
+.risco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80px;
+    padding: 8px;
+    border: 1px solid #a50000;
+    color: #444444;
+    font-size: 13px;
+    text-align: center;
+}
+
+.parte-inferior {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 45px;
+    padding: 25px;
+}
+
+.lista-protecoes h3,
+.normas h3 {
+    margin: 0 0 15px;
+    color: #a50000;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.item-protecao {
+    min-height: 45px;
+    margin-bottom: 10px;
+    padding: 12px;
+    border: 1px solid #a50000;
+    color: #444444;
+    font-size: 14px;
+}
+
+.lista-normas {
+    min-height: 300px;
+    padding: 15px;
+    border: 1px solid #a50000;
+    color: #444444;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.lista-normas ul {
+    padding-left: 20px;
+}
+
+.lista-normas li {
+    margin-bottom: 12px;
+}
+
+.lista-normas strong {
+    color: #a50000;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #a50000;
+    color: #ffffff;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px;
+}
